@@ -1,7 +1,7 @@
 const database = include('/databaseConnection');
 
 
-function getAllTodos(callback) {
+function getAllUsers(callback) {
 	let sqlQuery = "SELECT * FROM todo";
 	database.query(sqlQuery, (err, results, fields) => {
 		if (err) {
@@ -15,4 +15,4 @@ function getAllTodos(callback) {
 }
 
 
-module.exports = {getAllTodos}
+module.exports = {getAllUsers}
