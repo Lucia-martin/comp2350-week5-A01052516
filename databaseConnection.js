@@ -14,7 +14,7 @@ const dbConfigLocal = {
 	host: "localhost",
 	user: "root",
 	password: "Password",
-	database: "lab_example",
+	database: "database1", //lab_example
 	multipleStatements: false
 };
 
